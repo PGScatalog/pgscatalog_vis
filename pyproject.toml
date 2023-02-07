@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pgscatalog-vis"
 version = "0.1.0"
-description = "Package to visulize/render data from pgsc_calc nextflow pipeline"
+description = "Package to visualize/render data from pgsc_calc nextflow pipeline"
 authors = ["smlmbrt <sam.a.lambert@gmail.com>"]
 license = "Apache License 2.0"
 readme = "README.md"
