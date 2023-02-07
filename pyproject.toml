@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pgscatalog-vis"
+version = "0.1.0"
+description = "Package to visulize/render data from pgsc_calc nextflow pipeline"
+authors = ["smlmbrt <sam.a.lambert@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "pgscatalog_vis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+matplotlib = "^3.6.3"
+plotly = "^5.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
